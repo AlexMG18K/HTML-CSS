@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+.image {
+    position: absolute;
+    opacity: 0.2;
+    width: 10px;
+}
+.parent {
+    border: 1px ;
+    display: inline-block;
+}
+.box {
+        width: 100px;
+
+}
+#one {
+    position: relative;
+    left: 180px;
+    top: 35px;
+    height: auto;
+    width: 40rem;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+    border: solid;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+#two {
+    background-color: green;
+    position: absolute;
+    left: 320px;
+    top: 29px;
+    height: 1.5rem;
+    border-radius: 10px ;
+    text-align: center;
+    margin: auto;
+    border: solid;
+}

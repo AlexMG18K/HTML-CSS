@@ -1,0 +1,88 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+html {
+font-size: 62.5%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(202, 86, 86);
+    height: 100%;
+}
+.parrafo {
+    position: absolute;
+    display: block;
+    border: solid;
+    margin: 8.5px;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.5rem;
+}
+.parrafo a {
+    text-decoration: none;
+}
+.parrafo a:hover {
+    color: blue;
+}
+.parrafo a:active {
+    color: white;
+}
+.inline a {
+    text-decoration: none;
+}
+.inline a:hover {
+    color: blue;
+}
+.inline a:active {
+    color: white;
+}
+.inline-block {
+margin: 0%;
+padding: 0%;
+}
+.inline-block-main {
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    background-color:salmon;
+    padding: 10px;
+    
+}
+.inline {
+    border: solid;
+    margin: 0;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    color: white;
+}
+.blocked {
+    font-size: 1.5em;
+    display: block;
+    padding: 5.5rem;
+    width: 22rem;
+    border: solid;
+    margin: 2.5rem;
+    border-radius: 15px ;
+    background-color: white;
+}
+.block {
+    background-color:rgb(202, 86, 86);
+    position: absolute;
+}
+.aside {
+    font-size: 1.5rem;
+    position: relative;
+    display: flex;
+    background-color: rgb(143, 25, 25);
+    color: white;
+    left: 18%;
+    height: 75.1rem;
+    width: 126rem;
+    text-align: center;
+}

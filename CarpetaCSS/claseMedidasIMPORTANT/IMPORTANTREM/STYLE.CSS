@@ -1,0 +1,10 @@
+/* SIEMPRE USAR ESTO EN TODOS LOS ARCHIVOS HTML */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ESTE PORCENTAJE SE USA DESPUES PARA USAR REM ES DECIR 1REM=1PX */
+html {
+    font-size: 62.5%;
+}
